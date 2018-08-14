@@ -1,0 +1,10 @@
+create database chat_bd;
+
+create table tb_chat(
+id int not null primary key auto_increment,
+nome varchar(100) not null,
+mensagem varchar(255),
+data timestamp not null default current_timestamp
+);
+
+
